@@ -3,7 +3,7 @@ export const siteConfig = {
   name: "David Castel",
   role: "Full Stack Product Engineer",
   /** Email de contacto (mailto). */
-  email: "contact@example.com",
+  email: "davidcastelcastells@gmail.com",
   linkedin: "https://www.linkedin.com/",
   github: "https://github.com/",
 } as const;

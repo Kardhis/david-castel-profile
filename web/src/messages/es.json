@@ -65,10 +65,15 @@
   "contact": {
     "title": "Contacto",
     "lead": "¿Tienes un proyecto, una oferta o quieres hablar de arquitectura web?",
-    "emailLabel": "Email",
-    "cta": "Enviar email",
-    "note": "Sustituye la dirección en la configuración del sitio (site-config).",
-    "mailSubject": "Contacto desde el portfolio"
+    "emailLabel": "Correo",
+    "subjectLabel": "Asunto",
+    "messageLabel": "Mensaje",
+    "emailPlaceholder": "tu@email.com",
+    "subjectPlaceholder": "Asunto del mensaje",
+    "messagePlaceholder": "Escribe tu mensaje…",
+    "cta": "Enviar correo",
+    "subjectPrefix": "Nuevo Contacto: ",
+    "messageFrom": "Correo"
   },
   "footer": {
     "rights": "Todos los derechos reservados."
