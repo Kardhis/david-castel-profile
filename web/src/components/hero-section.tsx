@@ -7,8 +7,9 @@ import { useState } from "react";
 
 import { Particles } from "@/components/ui/particles";
 import { ShimmerButton } from "@/components/ui/shimmer-button";
+import { withBasePath } from "@/lib/site-config";
 
-const heroImageSrc = "/hero.jpg";
+const heroImageSrc = withBasePath("/hero.jpg");
 
 /** Altura del header sticky (h-16 = 4rem) para que el hero ocupe el resto del viewport visible. */
 const heroMinHeight = "min-h-[calc(100svh-4rem)]";

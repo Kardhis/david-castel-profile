@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 
 import { AboutTextReveal } from "@/components/about-text-reveal";
+import { withBasePath } from "@/lib/site-config";
 
 export async function AboutSection() {
   const t = await getTranslations("about");
@@ -18,15 +19,15 @@ export async function AboutSection() {
           p2={t("p2")}
           p3={t("p3")}
           leadImage={{
-            src: "/arquitectura_saas_elegante.gif",
+            src: withBasePath("/arquitectura_saas_elegante.gif"),
             alt: t("leadImageAlt"),
           }}
           bodyImage={{
-            src: "/about_me_ai_data_flow.gif",
+            src: withBasePath("/about_me_ai_data_flow.gif"),
             alt: t("bodyImageAlt"),
           }}
           p3Image={{
-            src: "/mi_enfoque_animado_descargable.gif",
+            src: withBasePath("/mi_enfoque_animado_descargable.gif"),
             alt: t("p3ImageAlt"),
           }}
         />
