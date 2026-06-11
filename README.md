@@ -1,22 +1,21 @@
 # David Castel Profile
 
-Portfolio profesional de David Castel, orientado a mostrar experiencia, proyectos, habilidades técnicas y propuesta de valor como desarrollador web/full-stack con uso estratégico de IA.
+Portfolio profesional de David Castel, orientado a mostrar experiencia, proyectos, habilidades técnicas y propuesta de valor como **Full Stack Product Engineer**.
 
-## Objetivo
+## Aplicación web
 
-Crear un portfolio profesional, moderno y escalable que sirva como carta de presentación para oportunidades laborales, proyectos freelance y futuros productos digitales.
+El sitio vive en la carpeta [`web/`](web/):
 
-## Stack previsto
+- **Next.js** (App Router) + **TypeScript** + **Tailwind CSS**
+- **next-intl** (español / inglés)
+- **Framer Motion** (animaciones puntuales)
+- SEO: metadatos, `sitemap`, `robots`, datos estructurados (JSON-LD)
 
-- Frontend: React / Vite
-- Estilos: CSS moderno o Tailwind CSS
-- Control de versiones: Git + GitHub
-- Gestión del proyecto: GitHub Projects + Issues
-- IA como apoyo al desarrollo
+Instrucciones de instalación y desarrollo: [`web/README.md`](web/README.md).
 
-## Estado del proyecto
+## Documentación del proyecto
 
-Proyecto en fase inicial de definición y construcción.
+En [`docs/`](docs/) está la definición de objetivos, identidad, contenido y arquitectura editorial.
 
 ## Autor
 
