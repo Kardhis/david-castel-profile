@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "David Castel | Full Stack Product Engineer",
+    "description": "Modern web apps, SaaS, automation, and AI applied to professional software delivery. Product-oriented Full Stack engineering."
+  },
+  "nav": {
+    "about": "About",
+    "works": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "ctaProjects": "View projects"
+  },
+  "hero": {
+    "greetingLead": "HI, I'M",
+    "greetingName": "DAVID",
+    "greetingAria": "Hi, I'm David",
+    "role": "Full Stack Product Engineer",
+    "headline": "I turn ideas into real web apps and SaaS with modern architecture, automation, and AI.",
+    "sub": "End-to-end digital products: Full Stack engineering, professional shipping, and AI-accelerated delivery for scalable, business-oriented solutions.",
+    "ctaPrimary": "View projects",
+    "ctaSecondary": "Get in touch",
+    "imageAlt": "David Castel at his workspace"
+  },
+  "about": {
+    "title": "About me",
+    "leadImageAlt": "Illustration: architecture and SaaS product with an elegant, futuristic look.",
+    "bodyImageAlt": "Decorative animation: data flow and AI in a digital environment.",
+    "p3ImageAlt": "Animation: direct approach, building the right solution, and continuous improvement with data and feedback.",
+    "lead": "I design and build digital products that balance technical excellence with business impact.",
+    "p1": "Over the years, I've worked across architecture, backend systems, frontend experiences, automation workflows, and cloud deployments, always focusing on simplicity, reliability, and maintainability.",
+    "p2": "Today, I specialize in modern web applications, SaaS products, and AI-enhanced solutions that help teams move faster and scale with confidence.",
+    "p3": "My approach is straightforward: understand the problem deeply, build the right solution, and continuously improve it through data and feedback."
+  },
+  "works": {
+    "title": "Highlighted experience",
+    "subtitle": "A sample of contexts where I add value as a product-minded engineer.",
+    "items": {
+      "0": {
+        "title": "Web apps & SaaS",
+        "body": "Building and evolving products with a modern stack, strong practices, and continuous delivery."
+      },
+      "1": {
+        "title": "Architecture & quality",
+        "body": "Maintainable structures, performance, technical SEO, and internationalization when the product demands it."
+      },
+      "2": {
+        "title": "AI in daily work",
+        "body": "Professional use of AI as an accelerator: reviews, tests, documentation, and controlled prototyping."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A selection of initiatives; replace with real case studies, links, and metrics when available.",
+    "soon": "Coming soon",
+    "card1": {
+      "title": "Personal portfolio",
+      "body": "This site: Next.js, i18n, SEO, and product-inspired UI references."
+    },
+    "card2": {
+      "title": "Your next product",
+      "body": "Placeholder for a case study with problem, solution, and outcome."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Have a project, an opportunity, or want to talk web architecture?",
+    "emailLabel": "Email",
+    "cta": "Send email",
+    "note": "Replace the address in site configuration (site-config).",
+    "mailSubject": "Contact from portfolio"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "floating": {
+    "label": "Contact",
+    "aria": "Open contact"
+  }
+}

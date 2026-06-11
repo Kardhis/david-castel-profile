@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "David Castel | Full Stack Product Engineer",
+    "description": "Aplicaciones web modernas, SaaS, automatización e IA aplicada al desarrollo. Ingeniería Full Stack orientada a producto."
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "works": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "ctaProjects": "Ver proyectos"
+  },
+  "hero": {
+    "greetingLead": "HOLA, SOY",
+    "greetingName": "DAVID",
+    "greetingAria": "Hola, soy David",
+    "role": "Full Stack Product Engineer",
+    "headline": "Transformo ideas en aplicaciones web y SaaS reales con arquitectura moderna, automatización e IA.",
+    "sub": "Productos digitales completos: ingeniería Full Stack, despliegue profesional y desarrollo acelerado con IA para soluciones escalables y orientadas a negocio.",
+    "ctaPrimary": "Ver proyectos",
+    "ctaSecondary": "Contactar",
+    "imageAlt": "David Castel en su espacio de trabajo"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "leadImageAlt": "Ilustración: arquitectura y producto SaaS con estética elegante y futurista.",
+    "bodyImageAlt": "Animación decorativa: flujo de datos e IA en un entorno digital.",
+    "p3ImageAlt": "Animación: enfoque directo, solución y mejora continua con datos y feedback.",
+    "lead": "Diseño y construyo productos digitales que equilibran la excelencia técnica con el impacto en el negocio.",
+    "p1": "A lo largo de los años he trabajado en arquitectura, sistemas backend, experiencias frontend, flujos de automatización y despliegues en la nube, siempre con foco en la simplicidad, la fiabilidad y la mantenibilidad.",
+    "p2": "Hoy me especializo en aplicaciones web modernas, productos SaaS y soluciones potenciadas con IA que ayudan a los equipos a avanzar más rápido y escalar con confianza.",
+    "p3": "Mi enfoque es directo: entender el problema en profundidad, construir la solución adecuada y mejorarla de forma continua mediante datos y feedback."
+  },
+  "works": {
+    "title": "Experiencia destacada",
+    "subtitle": "Una muestra de contextos donde aporto valor como ingeniero orientado a producto.",
+    "items": {
+      "0": {
+        "title": "Aplicaciones web y SaaS",
+        "body": "Desarrollo y evolución de productos con stack moderno, buenas prácticas y entrega continua."
+      },
+      "1": {
+        "title": "Arquitectura y calidad",
+        "body": "Estructuras mantenibles, rendimiento, SEO técnico e internacionalización cuando el producto lo requiere."
+      },
+      "2": {
+        "title": "IA en el día a día",
+        "body": "Uso profesional de IA como acelerador: revisión, generación de tests, documentación y prototipado controlado."
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Selección de iniciativas; sustituye por casos reales con enlaces y métricas cuando los tengas.",
+    "soon": "Próximamente",
+    "card1": {
+      "title": "Portfolio personal",
+      "body": "Este sitio: Next.js, i18n, SEO y diseño inspirado en referencias de producto."
+    },
+    "card2": {
+      "title": "Tu próximo producto",
+      "body": "Espacio reservado para un caso de estudio con problema, solución y resultado."
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "lead": "¿Tienes un proyecto, una oferta o quieres hablar de arquitectura web?",
+    "emailLabel": "Email",
+    "cta": "Enviar email",
+    "note": "Sustituye la dirección en la configuración del sitio (site-config).",
+    "mailSubject": "Contacto desde el portfolio"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  },
+  "floating": {
+    "label": "Contacto",
+    "aria": "Abrir contacto"
+  }
+}
