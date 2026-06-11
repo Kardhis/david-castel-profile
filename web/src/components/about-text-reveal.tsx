@@ -85,6 +85,51 @@ function PhraseReveal({
   );
 }
 
+const gifFrameClassName =
+  "relative aspect-[3/2] w-full overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/50 shadow-xl shadow-black/30 ring-1 ring-white/5";
+
+function AboutGifReveal({ src, alt }: { src: string; alt: string }) {
+  const reduceMotion = useReducedMotion();
+
+  if (reduceMotion) {
+    return (
+      <div className={gifFrameClassName}>
+        <img
+          src={src}
+          alt={alt}
+          width={1536}
+          height={1024}
+          className="h-full w-full object-contain object-center"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+    );
+  }
+
+  return (
+    <motion.div
+      className={gifFrameClassName}
+      initial={{ scale: 0, opacity: 0 }}
+      whileInView={{ scale: 1, opacity: 1 }}
+      viewport={{ once: true, amount: 0.35 }}
+      transition={{ duration: 2, ease: [0.22, 1, 0.36, 1] }}
+      style={{ transformOrigin: "center center" }}
+    >
+      {/* <img> evita el optimizador de Next, que puede dejar el GIF en un solo fotograma */}
+      <img
+        src={src}
+        alt={alt}
+        width={1536}
+        height={1024}
+        className="h-full w-full object-contain object-center"
+        loading="lazy"
+        decoding="async"
+      />
+    </motion.div>
+  );
+}
+
 export function AboutTextReveal({
   title,
   lead,
@@ -166,18 +211,7 @@ export function AboutTextReveal({
             ))}
           </div>
           <div className="relative min-w-0 w-full md:col-span-7">
-            <div className="relative aspect-[3/2] w-full overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/50 shadow-xl shadow-black/30 ring-1 ring-white/5">
-              {/* <img> evita el optimizador de Next, que puede dejar el GIF en un solo fotograma */}
-              <img
-                src={leadImage.src}
-                alt={leadImage.alt}
-                width={1536}
-                height={1024}
-                className="h-full w-full object-contain object-center"
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
+            <AboutGifReveal src={leadImage.src} alt={leadImage.alt} />
           </div>
         </div>
       ) : (
@@ -220,17 +254,7 @@ export function AboutTextReveal({
             ))}
           </div>
           <div className="relative min-w-0 w-full md:col-span-7">
-            <div className="relative aspect-[3/2] w-full overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/50 shadow-xl shadow-black/30 ring-1 ring-white/5">
-              <img
-                src={bodyImage.src}
-                alt={bodyImage.alt}
-                width={1536}
-                height={1024}
-                className="h-full w-full object-contain object-center"
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
+            <AboutGifReveal src={bodyImage.src} alt={bodyImage.alt} />
           </div>
         </div>
       ) : (
@@ -279,17 +303,7 @@ export function AboutTextReveal({
               ))}
             </div>
             <div className="relative min-w-0 w-full md:col-span-7">
-              <div className="relative aspect-[3/2] w-full overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/50 shadow-xl shadow-black/30 ring-1 ring-white/5">
-                <img
-                  src={p3Image.src}
-                  alt={p3Image.alt}
-                  width={1536}
-                  height={1024}
-                  className="h-full w-full object-contain object-center"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
+              <AboutGifReveal src={p3Image.src} alt={p3Image.alt} />
             </div>
           </div>
         ) : (
