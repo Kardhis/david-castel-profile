@@ -15,7 +15,7 @@ npm install
 npm run dev
 ```
 
-Abre [http://localhost:3000/profile](http://localhost:3000/profile): redirige a `/profile/es`.
+Abre [http://localhost:3001/profile](http://localhost:3001/profile): redirige a `/profile/es`.
 
 ## Variables de entorno
 
