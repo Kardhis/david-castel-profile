@@ -15,13 +15,15 @@ npm install
 npm run dev
 ```
 
-Abre [http://localhost:3000](http://localhost:3000): redirige a `/es`.
+Abre [http://localhost:3000/profile](http://localhost:3000/profile): redirige a `/profile/es`.
 
 ## Variables de entorno
 
 Copia [`.env.example`](.env.example) a `.env.local` y define:
 
-- `NEXT_PUBLIC_SITE_URL` — URL canónica del sitio (sin barra final), p. ej. `https://tudominio.com`.
+- `NEXT_PUBLIC_SITE_URL` — URL canónica del sitio (sin barra final), incluyendo el `basePath`. En producción: `http://168.231.84.188/profile`.
+
+La app se sirve bajo **`/profile`** (`basePath` en [`next.config.ts`](next.config.ts), definido en [`src/lib/site-config.ts`](src/lib/site-config.ts)).
 
 ## Contenido y assets
 

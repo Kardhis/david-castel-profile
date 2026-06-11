@@ -1,3 +1,6 @@
+/** Ruta bajo la que se sirve la app en producción (debe coincidir con `basePath` en next.config). */
+export const basePath = "/profile" as const;
+
 /** Edita estos valores con tus datos reales y redes. */
 export const siteConfig = {
   name: "David Castel",
@@ -11,6 +14,6 @@ export const siteConfig = {
 export function getSiteUrl(): string {
   return (
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
-    "http://localhost:3000"
+    `http://localhost:3000${basePath}`
   );
 }
