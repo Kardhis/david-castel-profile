@@ -1,6 +1,15 @@
 /** Ruta bajo la que se sirve la app en producción (debe coincidir con `basePath` en next.config). */
 export const basePath = "/profile" as const;
 
+/** Prefija rutas de `public/` para `<img>` y el optimizador con `basePath`. */
+export function withBasePath(assetPath: string): string {
+  const normalized = assetPath.startsWith("/") ? assetPath : `/${assetPath}`;
+  if (normalized === basePath || normalized.startsWith(`${basePath}/`)) {
+    return normalized;
+  }
+  return `${basePath}${normalized}`;
+}
+
 /** Edita estos valores con tus datos reales y redes. */
 export const siteConfig = {
   name: "David Castel",
