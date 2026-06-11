@@ -66,9 +66,14 @@
     "title": "Contact",
     "lead": "Have a project, an opportunity, or want to talk web architecture?",
     "emailLabel": "Email",
+    "subjectLabel": "Subject",
+    "messageLabel": "Message",
+    "emailPlaceholder": "you@email.com",
+    "subjectPlaceholder": "Message subject",
+    "messagePlaceholder": "Write your message…",
     "cta": "Send email",
-    "note": "Replace the address in site configuration (site-config).",
-    "mailSubject": "Contact from portfolio"
+    "subjectPrefix": "New Contact: ",
+    "messageFrom": "Email"
   },
   "footer": {
     "rights": "All rights reserved."
