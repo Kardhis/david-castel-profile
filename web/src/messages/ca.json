@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "title": "David Castel | Full Stack Product Engineer",
+    "description": "Aplicacions web modernes, SaaS, automatització i IA aplicada al desenvolupament. Enginyeria Full Stack orientada a producte."
+  },
+  "nav": {
+    "about": "Sobre mi",
+    "works": "Experiència",
+    "projects": "Projectes",
+    "contact": "Contacte",
+    "ctaProjects": "Veure projectes",
+    "openMenu": "Obrir menú de navegació",
+    "closeMenu": "Tancar menú de navegació",
+    "mobileNavLabel": "Navegació principal",
+    "languageLabel": "Selector d'idioma"
+  },
+  "hero": {
+    "greetingLead": "HOLA, SÓC",
+    "greetingName": "DAVID",
+    "greetingAria": "Hola, sóc David",
+    "role": "Full Stack Product Engineer",
+    "headline": "Transformo idees en aplicacions web i SaaS reals amb arquitectura moderna, automatització i IA.",
+    "sub": "Productes digitals complets: enginyeria Full Stack, desplegament professional i desenvolupament accelerat amb IA per a solucions escalables i orientades al negoci.",
+    "ctaPrimary": "Veure projectes",
+    "ctaSecondary": "Contactar",
+    "imageAlt": "David Castel al seu espai de treball"
+  },
+  "about": {
+    "title": "Sobre mi",
+    "leadImageAlt": "Il·lustració: arquitectura i producte SaaS amb estètica elegant i futurista.",
+    "bodyImageAlt": "Animació decorativa: flux de dades i IA en un entorn digital.",
+    "p3ImageAlt": "Animació: enfocament directe, solució i millora contínua amb dades i feedback.",
+    "openGifView": "Ampliar l'animació a pantalla completa",
+    "closeGifView": "Tancar visualització",
+    "zoomInGif": "Ampliar animació",
+    "zoomOutGif": "Reduir animació",
+    "resetGifZoom": "Restablir zoom",
+    "gifZoomHint": "Fes servir +/− o la roda per ampliar i arrossega la imatge per desplaçar-la.",
+    "lead": "Disseny i construeixo productes digitals que equilibren l'excel·lència tècnica amb l'impacte en el negoci.",
+    "p1": "Al llarg dels anys he treballat en arquitectura, sistemes backend, experiències frontend, fluxos d'automatització i desplegaments al núvol, sempre amb focus en la simplicitat, la fiabilitat i la mantenibilitat.",
+    "p2": "Avui em specialitzo en aplicacions web modernes, productes SaaS i solucions potenciades amb IA que ajuden els equips a avançar més ràpid i escalar amb confiança.",
+    "p3": "El meu enfocament és directe: entendre el problema en profunditat, construir la solució adequada i millorar-la de forma contínua mitjançant dades i feedback."
+  },
+  "works": {
+    "title": "Experiència destacada",
+    "subtitle": "Una mostra de contextos on aporto valor com a enginyer orientat a producte.",
+    "items": {
+      "0": {
+        "title": "Aplicacions web i SaaS",
+        "body": "Desenvolupament i evolució de productes amb stack modern, bones pràctiques i entrega contínua."
+      },
+      "1": {
+        "title": "Arquitectura i qualitat",
+        "body": "Estructures mantenibles, rendiment, SEO tècnic i internacionalització quan el producte ho requereix."
+      },
+      "2": {
+        "title": "IA en el dia a dia",
+        "body": "Ús professional de la IA com a accelerador: revisió, generació de tests, documentació i prototipat controlat."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projectes",
+    "subtitle": "Selecció d'iniciatives; substitueix per casos reals amb enllaços i mètriques quan els tinguis.",
+    "soon": "Properament",
+    "card1": {
+      "title": "Portfolio personal",
+      "body": "Aquest lloc: Next.js, i18n, SEO i disseny inspirat en referències de producte."
+    },
+    "card2": {
+      "title": "El teu proper producte",
+      "body": "Espai reservat per a un cas d'estudi amb problema, solució i resultat."
+    }
+  },
+  "contact": {
+    "title": "Contacte",
+    "lead": "Tens un projecte, una oferta o vols parlar d'arquitectura web?",
+    "emailLabel": "Correu",
+    "subjectLabel": "Assumpte",
+    "messageLabel": "Missatge",
+    "emailPlaceholder": "tu@email.com",
+    "subjectPlaceholder": "Assumpte del missatge",
+    "messagePlaceholder": "Escriu el teu missatge…",
+    "cta": "Enviar correu",
+    "sending": "Enviant…",
+    "successMessage": "Missatge enviat. Et respondré com abans pugui.",
+    "errorGeneric": "No s'ha pogut enviar el missatge. Torna-ho a provar d'aquí a uns minuts.",
+    "errorNetwork": "Error de connexió. Comprova la xarxa i torna-ho a provar.",
+    "errorNotConfigured": "L'enviament de correu encara no està configurat al servidor.",
+    "errorValidation": "Revisa els camps marcats i torna-ho a provar.",
+    "companyLabel": "Empresa",
+    "subjectPrefix": "Nou contacte: ",
+    "messageFrom": "Correu",
+    "validation": {
+      "email": {
+        "required": "Indica el teu correu electrònic.",
+        "invalid": "Introdueix un correu vàlid."
+      },
+      "subject": {
+        "required": "Indica un assumpte.",
+        "tooLong": "L'assumpte és massa llarg."
+      },
+      "message": {
+        "required": "Escriu un missatge.",
+        "tooShort": "El missatge ha de tenir com a mínim 10 caràcters.",
+        "tooLong": "El missatge és massa llarg."
+      }
+    }
+  },
+  "footer": {
+    "rights": "Tots els drets reservats."
+  },
+  "floating": {
+    "label": "Contacte",
+    "aria": "Obrir contacte"
+  }
+}

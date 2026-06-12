@@ -22,6 +22,9 @@ Abre [http://localhost:3001/profile](http://localhost:3001/profile): redirige a 
 Copia [`.env.example`](.env.example) a `.env.local` y define:
 
 - `NEXT_PUBLIC_SITE_URL` — URL canónica del sitio (sin barra final), incluyendo el `basePath`. En producción: `http://168.231.84.188/profile`.
+- `SMTP_USER` / `SMTP_PASS` — cuenta Gmail y contraseña de aplicación para el formulario de contacto (`contacto.david.castel@gmail.com`).
+- `CONTACT_TO` — (opcional) bandeja donde recibir los mensajes; por defecto usa el email de `site-config.ts`.
+- `SMTP_FROM_NAME` — (opcional) nombre del remitente en los correos enviados.
 
 La app se sirve bajo **`/profile`** (`basePath` en [`next.config.ts`](next.config.ts), definido en [`src/lib/site-config.ts`](src/lib/site-config.ts)).
 
