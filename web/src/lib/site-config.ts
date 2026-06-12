@@ -14,8 +14,8 @@ export function withBasePath(assetPath: string): string {
 export const siteConfig = {
   name: "David Castel",
   role: "Full Stack Product Engineer",
-  /** Email de contacto (mailto). */
-  email: "davidcastelcastells@gmail.com",
+  /** Email de contacto público y destino por defecto del formulario. */
+  email: "contacto.david.castel@gmail.com",
   linkedin: "https://www.linkedin.com/",
   github: "https://github.com/",
 } as const;

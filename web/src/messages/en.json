@@ -8,7 +8,11 @@
     "works": "Experience",
     "projects": "Projects",
     "contact": "Contact",
-    "ctaProjects": "View projects"
+    "ctaProjects": "View projects",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "mobileNavLabel": "Primary navigation",
+    "languageLabel": "Language selector"
   },
   "hero": {
     "greetingLead": "HI, I'M",
@@ -26,6 +30,12 @@
     "leadImageAlt": "Illustration: architecture and SaaS product with an elegant, futuristic look.",
     "bodyImageAlt": "Decorative animation: data flow and AI in a digital environment.",
     "p3ImageAlt": "Animation: direct approach, building the right solution, and continuous improvement with data and feedback.",
+    "openGifView": "Expand animation to full screen",
+    "closeGifView": "Close preview",
+    "zoomInGif": "Zoom in",
+    "zoomOutGif": "Zoom out",
+    "resetGifZoom": "Reset zoom",
+    "gifZoomHint": "Use +/− or the mouse wheel to zoom, and drag the image to pan.",
     "lead": "I design and build digital products that balance technical excellence with business impact.",
     "p1": "Over the years, I've worked across architecture, backend systems, frontend experiences, automation workflows, and cloud deployments, always focusing on simplicity, reliability, and maintainability.",
     "p2": "Today, I specialize in modern web applications, SaaS products, and AI-enhanced solutions that help teams move faster and scale with confidence.",
@@ -72,8 +82,30 @@
     "subjectPlaceholder": "Message subject",
     "messagePlaceholder": "Write your message…",
     "cta": "Send email",
+    "sending": "Sending…",
+    "successMessage": "Message sent. I will reply as soon as possible.",
+    "errorGeneric": "Could not send your message. Please try again in a few minutes.",
+    "errorNetwork": "Connection error. Check your network and try again.",
+    "errorNotConfigured": "Email delivery is not configured on the server yet.",
+    "errorValidation": "Please check the highlighted fields and try again.",
+    "companyLabel": "Company",
     "subjectPrefix": "New Contact: ",
-    "messageFrom": "Email"
+    "messageFrom": "Email",
+    "validation": {
+      "email": {
+        "required": "Enter your email address.",
+        "invalid": "Enter a valid email address."
+      },
+      "subject": {
+        "required": "Enter a subject.",
+        "tooLong": "The subject is too long."
+      },
+      "message": {
+        "required": "Enter a message.",
+        "tooShort": "The message must be at least 10 characters.",
+        "tooLong": "The message is too long."
+      }
+    }
   },
   "footer": {
     "rights": "All rights reserved."
