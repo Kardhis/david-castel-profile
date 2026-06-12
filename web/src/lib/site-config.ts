@@ -23,6 +23,6 @@ export const siteConfig = {
 export function getSiteUrl(): string {
   return (
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
-    `http://localhost:3001${basePath}`
+    `http://localhost:3000${basePath}`
   );
 }
