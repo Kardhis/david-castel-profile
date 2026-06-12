@@ -8,7 +8,11 @@
     "works": "Experiencia",
     "projects": "Proyectos",
     "contact": "Contacto",
-    "ctaProjects": "Ver proyectos"
+    "ctaProjects": "Ver proyectos",
+    "openMenu": "Abrir menú de navegación",
+    "closeMenu": "Cerrar menú de navegación",
+    "mobileNavLabel": "Navegación principal",
+    "languageLabel": "Selector de idioma"
   },
   "hero": {
     "greetingLead": "HOLA, SOY",
@@ -26,6 +30,12 @@
     "leadImageAlt": "Ilustración: arquitectura y producto SaaS con estética elegante y futurista.",
     "bodyImageAlt": "Animación decorativa: flujo de datos e IA en un entorno digital.",
     "p3ImageAlt": "Animación: enfoque directo, solución y mejora continua con datos y feedback.",
+    "openGifView": "Ampliar animación a pantalla completa",
+    "closeGifView": "Cerrar visualización",
+    "zoomInGif": "Ampliar animación",
+    "zoomOutGif": "Reducir animación",
+    "resetGifZoom": "Restablecer zoom",
+    "gifZoomHint": "Usa +/− o la rueda para ampliar y arrastra la imagen para desplazarla.",
     "lead": "Diseño y construyo productos digitales que equilibran la excelencia técnica con el impacto en el negocio.",
     "p1": "A lo largo de los años he trabajado en arquitectura, sistemas backend, experiencias frontend, flujos de automatización y despliegues en la nube, siempre con foco en la simplicidad, la fiabilidad y la mantenibilidad.",
     "p2": "Hoy me especializo en aplicaciones web modernas, productos SaaS y soluciones potenciadas con IA que ayudan a los equipos a avanzar más rápido y escalar con confianza.",
@@ -72,8 +82,30 @@
     "subjectPlaceholder": "Asunto del mensaje",
     "messagePlaceholder": "Escribe tu mensaje…",
     "cta": "Enviar correo",
+    "sending": "Enviando…",
+    "successMessage": "Mensaje enviado. Te responderé lo antes posible.",
+    "errorGeneric": "No se pudo enviar el mensaje. Inténtalo de nuevo en unos minutos.",
+    "errorNetwork": "Error de conexión. Comprueba tu red e inténtalo otra vez.",
+    "errorNotConfigured": "El envío de correo aún no está configurado en el servidor.",
+    "errorValidation": "Revisa los campos marcados e inténtalo.",
+    "companyLabel": "Empresa",
     "subjectPrefix": "Nuevo Contacto: ",
-    "messageFrom": "Correo"
+    "messageFrom": "Correo",
+    "validation": {
+      "email": {
+        "required": "Indica tu correo electrónico.",
+        "invalid": "Introduce un correo válido."
+      },
+      "subject": {
+        "required": "Indica un asunto.",
+        "tooLong": "El asunto es demasiado largo."
+      },
+      "message": {
+        "required": "Escribe un mensaje.",
+        "tooShort": "El mensaje debe tener al menos 10 caracteres.",
+        "tooLong": "El mensaje es demasiado largo."
+      }
+    }
   },
   "footer": {
     "rights": "Todos los derechos reservados."
